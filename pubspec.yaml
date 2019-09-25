@@ -1,0 +1,27 @@
+name: whitelistku
+description: Aplikasi untuk mencatat impian-impian yang ingin diwujudkan
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter 
+  path: ^1.6.4
+  sqflite: ^1.1.6+4
+  flutter_icons: ^0.2.5
+  datetime_picker_formfield: ^0.4.3
+  intl: ^0.15.8
+  pull_to_refresh: ^1.5.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/insert_whitelist.webp
+    - assets/images/insert_kategori.webp
+    - assets/images/loading.webp
+    - assets/images/dreamer.webp
